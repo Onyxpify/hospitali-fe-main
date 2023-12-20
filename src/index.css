@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;600;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Lexend";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  color: #626687;
+  font-size: 14px;
+  font-weight: 300;
+  height: 2000px;
+}
+ 
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+:root{
+  --primary-color:#10B981;
+  --secondary-color:#F59E0B;
+  --deep-blue:#1B1C57;
+  --success:#10B981;
+  --success-rgb:rgb(16, 185, 129);
+ --error:red;
+ --primary-rgb:16, 185, 129
+}
+
+header{
+  color: var(--deep-blue);
+  font-weight: 600;
+}
